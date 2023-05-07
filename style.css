@@ -1,0 +1,55 @@
+:root{
+    --bg-body: rgb(16, 17, 17);
+    --text-color:white;
+    --fs-body: 1.125rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    color: var(--text-color);
+    font-size: var(--fs-body) ;
+    background-image: url('pictures/bg3.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    max-width: fit-content(1000px);
+}
+
+.slide-right {
+    overflow: hidden;
+    height: 400px;
+    margin-left: 100px;
+    display: flexbox;
+
+}
+.slide-right h1{
+    animation: 1s slide-right;
+    animation-delay: 1s;
+    color: lightpink;
+    font-size: 4rem;
+    
+}
+
+.slide-right h2 {
+    animation: 2s slide-right;
+    animation-delay: 1s;
+    font-size: 2rem;
+    
+}
+
+
+
+
+@keyframes slide-right {
+     from {
+        margin-left: -500px;
+     }
+ 
+     to {
+        margin-left: 0%;
+     }
+}

@@ -1,0 +1,35 @@
+.header-div{
+    height: 150px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(9, 40, 84);
+    font-size: 2rem;
+    border: solid;
+    border-color: 2px aliceblue;
+    border-radius: 20px;
+}
+
+.header-div h1{
+    position: relative;
+    color: blanchedalmond;
+    left: 300px;
+}
+#home-button{
+    position: relative;
+    background-image: url(pictures/icons8-home-64.png);
+    height: 60px;
+    width: 60px;
+    bottom: 120px;
+    left: 60px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+

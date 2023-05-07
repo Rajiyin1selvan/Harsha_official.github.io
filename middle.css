@@ -1,0 +1,165 @@
+.skills{
+    height: 400px;
+    margin-bottom: 500px;
+    justify-content: space-between;
+    border: solid;
+    border-color: blanchedalmond;
+    border-radius: 100px;
+    margin-left: 70px;
+}
+.middle{
+    align-items: center;
+    height: 250px;
+    margin-left: 100px;
+   
+}
+
+.skills h1{
+    color: lightcoral;
+    margin-left: 100px;
+    font-size: 3rem;
+}
+#button-4{
+    background-image: url(pictures/icons8-c-programming-240.png);
+    height: 220px;
+    width: 200px;
+    margin-left: 100px;
+    border:white;
+    background-color: transparent;
+}
+
+#button-5{
+    background-image: url(pictures/icons8-python-188.png);
+    height: 200px;
+    width: 200px;
+    border: none;
+    background-color: transparent;
+}
+
+#button-6{
+    background-image: url(pictures/icons8-html-5-240.png);
+    height: 220px;
+    width: 200px;
+    border: none;
+    margin-left: 150px;
+    background-color: transparent;
+}
+#button-7{
+    background-image: url(pictures/icons8-javascript-240.png);
+    height: 220px;
+    width: 200px;
+    border: none;
+    margin-left: 100px;
+    background-color: transparent;
+}
+.Education{
+    position: relative;
+    border: solid;
+    border-color: blanchedalmond;
+    border-radius: 100px;
+    margin-left: 80px;
+    height:500px;
+    bottom: 400px;
+    width: 1300px;
+}
+.Education #school{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    margin-left: 100px;
+
+}
+.Education h1{
+    color: lightcoral;
+    margin-left: 75px;
+    font-size: 3rem;
+}
+.Education h2{
+    margin-left: 70px;
+}
+.Education h3{
+    margin-left: 650px;
+    font-size: 2rem;
+    position: relative;
+    bottom: 400px;
+}
+.Education #colg{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 350px;
+    margin-left: 750px;
+    bottom: 400px;
+}
+.Contacts{
+    display: flexbox;
+    border: solid;
+    border-color: blanchedalmond;
+    position: relative;
+    bottom: 300px;
+    width: 1300px;
+    height:300px;
+    margin-left: 100px;
+    border-radius: 100px;
+}
+.Contacts .down-part #button-1{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 150px;
+    border: none;
+    background-color: transparent;
+    border-radius: 90px;
+    background-image: url(pictures/icons8-spotify-94.png);
+    
+}
+.Contacts .down-part h1{
+    color: lightcoral;
+    position: relative;
+    left: 100px;
+}
+.Contacts .down-part h2{
+    color: white;
+    position: relative;
+    left: 50px;
+    font-size: 2rem;
+}
+.Contacts .down-part h3{
+    color: white;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+    font-size: 2rem;
+}
+.Contacts .down-part h4{
+    color: white;
+    position: relative;
+    left: 1000px;
+    bottom: 420px;
+    font-size: 2rem;
+}
+
+.Contacts .down-part #button-2{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 600px;
+    bottom: 190px;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    background-image: url(pictures/icons8-linkedin-94.png);
+}
+
+
+.Contacts .down-part #button-3{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 1000px;
+    bottom: 400px;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    background-image: url(pictures/icons8-gmail-logo-94.png);
+}
